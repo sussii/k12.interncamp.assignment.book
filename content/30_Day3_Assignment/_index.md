@@ -1,12 +1,12 @@
 ---
-title: "Day1 Assignment"
+title: "Day3 Assignment"
 chapter: true
-weight: 10
+weight: 30
 ---
 
-# Day1 Assignment
+# Day3 Assignment
 
-Day1 is for ramping up. No hurry. 
+Day3 is for ramping up. No hurry. 
 
 ### Learning Objcetives
 - Get familiar with AWS Products
