@@ -58,7 +58,7 @@ The examples and sample code provided in this workshop are intended to be consum
 **Step 5** : Execute the following commands in the Terminal to checkout project GitHub Repository and start running the project.
 ```
 git clone  https://github.com/guming3d/TSP-workshop-Original.git
-cd TSP-workshop
+cd TSP-workshop-Original
 pip3 install -r requirements.txt
 python3 source/flask_app.py
 ```
