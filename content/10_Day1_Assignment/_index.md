@@ -1,12 +1,20 @@
 ---
-title: "Main Page"
+title: "Day1_Assignment"
 chapter: true
-weight: 1
+weight: 10
 ---
 
-# K12 Intern Camp
+# Day1 Assignment
 
-### Welcome
+### Get Familar with AWS Products
+
+[AWS Cloud Products](https://aws.amazon.com/products/)
+
+In this two weeks, you will use three AWS Products
+⋅⋅*[Amazon WorkSpace](https://aws.amazon.com/workspaces/) 
+⋅⋅*[Amazon SageMaker](https://aws.amazon.com/sagemaker/)
+⋅⋅*[Amazon Braket](https://aws.amazon.com/braket/)
+
 
 In this two week camp, you will learn a classic algorithm problem. And apply a algorithm into a real-world problem. Implement an algorith 
 

@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
-title = "AWS Modernization Workshop Sample"
+title = "K12 Intern Camp"
 theme = "hugo-theme-learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= "false"
