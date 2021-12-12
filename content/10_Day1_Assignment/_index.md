@@ -68,7 +68,7 @@ python3 source/flask_app.py
 
 The traveling salesman problem (TSP) is a problem that asks, with a list of stops and the distances between each of them, what is the shortest path/possible route that visits each location and returns to the origin?
 
-![Traveling Salesman Problem](/images/tsp_problem.png)
+![Traveling Salesman Problem](/images/k12.interncamp.2021/tsp_problem.png)
 
 For decades the TSP has been a challenge for many businesses that rely on route planning.
 
@@ -78,7 +78,7 @@ But once you start planning routes throughout the country, it reaches an almost 
 
 This is what a route would look like if planned to every city in the US with over 500 inhabitants:
 
-![Large Traveling Salesman Problem](/images/large_tsp_problem.png)
+![Large Traveling Salesman Problem](/images/k12.interncamp.2021/large_tsp_problem.png)
 
 Just imagine the number of possible routes you could take when a single possible solution is this complex.
 
@@ -142,6 +142,21 @@ What good is an “efficient route” if it’s not possible for a driver to han
 
 Good workload balancing tools will help you reduce overtime and cut driver costs, and make sure all drivers are HOS-compliant at all times.
 
+#### Playing with the code for the simplified TSP problem
+
+**Step 1**  : After logging into your AWS console and click the link for [Amazon Braket](https://console.aws.amazon.com/braket/home?region=us-east-1#/)
+
+**Step 2**  : Next, click the button to [Create Notebook](https://console.aws.amazon.com/braket/home?region=us-east-1#/create-notebook-instance)
+
+**Step 2** : Next, let us create a notebook instance.
+
+**Step 3** Select Instance type. SageMaker provides multiple instance types of different computational power and prices. When creating an instance, we can specify the instance name and choose its type. we choose ml.c5.2xlarge. With 8-core CPU, this instance is powerful enough for most of our chapters.
+
+**Step 4** Checkout the given GitHub Repo. A Jupyter notebook version of this book for fitting SageMaker is available at https://github.com/. We can specify this GitHub repository URL to let SageMaker clone this repository during instance creation.
+
+**Step 5** It may take a few minutes before the instance is ready. When it is ready, you can click on the “Open Jupyter” link.
+
+**Step 6** After finishing your work, do not forget to stop the instance to avoid extra cost.
 Let's do some background research. Find at least 5 real-world problem related to TSP. You should be able to describe the use cases. 
 
 ---
