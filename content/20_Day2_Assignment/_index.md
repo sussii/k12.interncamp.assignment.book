@@ -10,7 +10,8 @@ Day2 is coming
 
 ### Learning Objcetives
 - Learn to use Amazon SageMaker to run notebooks
-- Understand how TSP is solved with 3-4 different classical algorithms
+- Understand how TSP is solved with 3 different classical algorithms
+- 
 
 ### Deliver Result
 - 1 PPT Slide: Understand classical notebook for TSP（pyTSP）
@@ -59,18 +60,13 @@ Please read through the Notebook carefully. Make sure you run Notebook to view t
 | 1  | Permutation   |
 | 2  | Nearest neighbor   |
 | 3  | 2-Opt  |
-| 4  | Insertion (Optional)   |
 
 ---
-### Onboarding to Quantum Computing
+### Quantum Computing in the Industry
 
-More quantum computing background.
+Let's look the quantum technology from IBM
 
-* The IBM Quantum State of the Union (~30 minutes)
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=-qBrLqvESNM
-" target="_blank"><img src="http://img.youtube.com/vi/-qBrLqvESNM/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="90" border="3" /></a>
-* How 
+* [The IBM Quantum State of the Union (30 minutes)](https://wx.mail.qq.com/ftn/download?func=3&key=9d99e661d02acf1eafea48613463323981c72e64366332394749570757020601045e4b5905010714565705561b020109544b50030054005d54525f5750521d391b12531218005d544f320e04162a70744237130058174754423512004206125604461209534367570b09084f5b13062d90f588d8181d656a3f38cab2082a4b2941026fec&code=bffa6c29&k=9d99e661d02acf1eafea48613463323981c72e64366332394749570757020601045e4b5905010714565705561b020109544b50030054005d54525f5750521d391b12531218005d544f320e04162a70744237130058174754423512004206125604461209534367570b09084f5b13062d90f588d8181d656a3f38cab2082a4b2941026fec&fweb=1&cl=1)
 
 ---
 ### For your reference (optional)
