@@ -44,7 +44,7 @@ In this two weeks, you will use three AWS Products.
 
 **Step 3** Select Instance type. SageMaker provides multiple instance types of different computational power and prices. When creating an instance, we can specify the instance name and choose its type. we choose ml.c5.2xlarge. With 8-core CPU, this instance is powerful enough for most of our chapters.
 
-**Step 4** Checkout the given GitHub Repo. A Jupyter notebook version of this book for fitting SageMaker is available at https://github.com/. We can specify this GitHub repository URL to let SageMaker clone this repository during instance creation.
+**Step 4** Checkout the given GitHub Repo. A Jupyter notebook version of this book for fitting SageMaker is available at `https://github.com/xiaotinghe/TSP_Classical_Method`. We can specify this GitHub repository URL to let SageMaker clone this repository during instance creation.
 
 **Step 5** It may take a few minutes before the instance is ready. When it is ready, you can click on the “Open Jupyter” link.
 
