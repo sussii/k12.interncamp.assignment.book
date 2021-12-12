@@ -157,9 +157,9 @@ Good workload balancing tools will help you reduce overtime and cut driver costs
 
 **Step 5** Choose create the role for this notebook since this is the first time you use this service
 
-![Create role](/k12.interncamp.2021/images/creat_role.png)
+![Create role](/k12.interncamp.2021/images/create_role.png)
 
-**Step 6** Checkout the given GitHub Repo. A Jupyter notebook version of this book for fitting SageMaker is available at https://github.com/AoyuQC/k12-interncamp-tsp-quantum.git. We can specify this GitHub repository URL to let Braket notebook clone this repository during instance creation. After that, Please click the button to crete the notebook.
+**Step 6** Checkout the given GitHub Repo. A Jupyter notebook version of this book for fitting SageMaker is available at ` https://github.com/AoyuQC/k12-interncamp-tsp-quantum.git `. We can specify this GitHub repository URL to let Braket notebook clone this repository during instance creation. After that, Please click the button to crete the notebook.
 
 ![Repo link](/k12.interncamp.2021/images/repo_link.png)
 
