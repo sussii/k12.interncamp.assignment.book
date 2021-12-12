@@ -4,9 +4,9 @@ chapter: true
 weight: 60
 ---
 
-# Day6 Assignment
+# Day8-9 Assignment
 
-Day6 is for ramping up. No hurry. 
+Day8-9 is for integrating the quantum computing algorithm
 
 ### Learning Objcetives
 - Get familiar with AWS Products

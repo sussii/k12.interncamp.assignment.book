@@ -9,48 +9,32 @@ weight: 30
 Day3 is for learning the basics of quantum computing development in the cloud
 
 ### Learning Objcetives
-- Get familiar with AWS Products
-- Set up development environment for the rest of days 
-- Understand the application of TSP problem in real-world through research
-- Onboarding to Quantum Computing
+- Build Your Own Quantum Gate Model
+- Quantum Machine Learning in Amazon Braket
 
 ### Deliver Result
 - 1 PPT Slide: Find at least 5 real scenarios for the application of quantum computing
 - 1 PPT Slide: Describe the progress/limitation of quantum computing
 - 1 PPT Slide: Describe how to build a model based on quantum gates (anzats,objective function, training) 
-- Go through the notebooks in quantum-computing-algorithm/basics/gate and finish the assignment in quantum-computing-algorithm/basics/gate/pennylane/1_Build_Your_Gate.ipynb
+- Go through the notebooks in k12-interncamp-tsp-quantum/basics/gate and finish the assignment in k12-interncamp-tsp-quantum/basics/gate/pennylane/1_Build_Your_Gate.ipynb
 
----
-
-#### Get Familiar with AWS Products
-
-First, let's have an overview of AWS. Browse through [AWS Official Webpage](https://aws.amazon.com/). 
-
-* [What is Cloud Computing](https://aws.amazon.com/what-is-cloud-computing/?nc1=f_cc)
-* [AWS Cloud Products](https://aws.amazon.com/products/) 
-
-In this two weeks, you will use three AWS Products. 
-
- * [Amazon WorkSpaces](https://aws.amazon.com/workspaces/) is used as a host to run the python project.
- * [Amazon SageMaker](https://aws.amazon.com/sagemaker/) is used for running the given Notebooks, where you learn algorithms step-by-step.
- * [Amazon Braket](https://aws.amazon.com/braket/) is used for accessing quantum computing resources. 
 
 
 ---
 
-### Build Your Own Quantum Gate
+### Build Your Own Quantum Gate Model
 
 
-**Step 1**  : Open your amazon braket notebook: amazon-braket-k12-interncamp-202112-quantum
+**Step 1**  : Open your amazon braket notebook: amazon-braket-k12-interncamp-tsp-quantum
 
-**Step 2**  : Open the quantum-computing-algorithm/basics/gate
+**Step 2**  : Open the k12-interncamp-tsp-quantum/basics/gate
 
 **Step 3**  : Study the notebooks under folder braket/ to learn the basics for building quantum gates
 
-**Step 4**  : Based on what you learn, please finish the task in the notebook quantum-computing-algorithm/basics/gate/pennylane/1_Build_Your_Gate.ipynb
+**Step 4**  : Based on what you learn, please finish the task in the notebook k12-interncamp-tsp-quantum/basics/gate/pennylane/1_Build_Your_Gate.ipynb
 
 ---
-### Onboarding to Quantum Computing
+### Quantum Machine Learning in Amazon Braket
 
 We are trying to learn building model in braket. Please watch the following videos for knowledge.
 

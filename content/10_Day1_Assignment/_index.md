@@ -34,7 +34,35 @@ In this two weeks, you will use three AWS Products.
  * [Amazon Braket](https://aws.amazon.com/braket/) is used for accessing quantum computing resources. 
 
 
+
+### Setup Development Environment
+
+**Step 1**  : Download workspace client from https://clients.amazonworkspaces.com/.
+
+**Step 2** : Log into Amazon WorkSpaces with the given registration code. (If you don't have the code, ask your mentor.)
+
+
+{{% notice Note %}}
+<p style='text-align: left;'>
+The examples and sample code provided in this workshop are intended to be consumed as instructional content. The crendentials is given for camp learning experience, please do not share it with others.
+</p>
+{{% /notice %}}
+
+**Step 3** : After login, you will see the desktop user interface. Now you are using a Amazon Linux system.
+
+**Step 4** : Open a Terminal window.
+
+**Step 5** : Execute the following commands in the Terminal to checkout project GitHub Repository and start running the project.
+```
+git clone  https://github.com/guming3d/TSP-workshop-Original.git
+cd TSP-workshop-Original
+pip3 install -r requirements.txt
+python3 source/flask_app.py
+```
+**Step 6** : Open a web browser in the WorkSpace, visit http://127.0.0.1:5000, you should see a Web UI.
+
 ---
+### Research about TSP Applications
 
 ### What Is the Traveling Salesman Problem?
 
@@ -114,38 +142,7 @@ What good is an “efficient route” if it’s not possible for a driver to han
 
 Good workload balancing tools will help you reduce overtime and cut driver costs, and make sure all drivers are HOS-compliant at all times.
 
-### Setup Development Environment
-
-**Step 1**  : Download workspace client from https://clients.amazonworkspaces.com/.
-
-**Step 2** : Log into Amazon WorkSpaces with the given registration code. (If you don't have the code, ask your mentor.)
-
-
-{{% notice Note %}}
-<p style='text-align: left;'>
-The examples and sample code provided in this workshop are intended to be consumed as instructional content. The crendentials is given for camp learning experience, please do not share it with others.
-</p>
-{{% /notice %}}
-
-**Step 3** : After login, you will see the desktop user interface. Now you are using a Amazon Linux system.
-
-**Step 4** : Open a Terminal window.
-
-**Step 5** : Execute the following commands in the Terminal to checkout project GitHub Repository and start running the project.
-```
-git clone  https://github.com/guming3d/TSP-workshop-Original.git
-cd TSP-workshop-Original
-pip3 install -r requirements.txt
-python3 source/flask_app.py
-```
-**Step 6** : Open a web browser in the WorkSpace, visit http://127.0.0.1:5000, you should see a Web UI.
-
----
-### Research about TSP Applications
-
 Let's do some background research. Find at least 5 real-world problem related to TSP. You should be able to describe the use cases. 
-
-steps for studying tsp problems to be added!!! (AOYU)
 
 ---
 ### Onboarding to Quantum Computing
