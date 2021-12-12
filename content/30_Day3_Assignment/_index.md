@@ -38,32 +38,16 @@ In this two weeks, you will use three AWS Products.
 
 ---
 
-### Build your own quantum gate
+### Build Your Own Quantum Gate
 
 
-**Step 1**  : Download workspace client from https://clients.amazonworkspaces.com/.
+**Step 1**  : Open your amazon braket notebook: amazon-braket-k12-interncamp-202112-quantum
 
-**Step 2** : Log into Amazon WorkSpaces with the given registration code. (If you don't have the code, ask your mentor.)
+**Step 2**  : Open the quantum-computing-algorithm/basics/gate
 
+**Step 3**  : Study the notebooks under folder braket/ to learn the basics for building quantum gates
 
-{{% notice Note %}}
-<p style='text-align: left;'>
-The examples and sample code provided in this workshop are intended to be consumed as instructional content. The crendentials is given for camp learning experience, please do not share it with others.
-</p>
-{{% /notice %}}
-
-**Step 3** : After login, you will see the desktop user interface. Now you are using a Amazon Linux system.
-
-**Step 4** : Open a Terminal window.
-
-**Step 5** : Execute the following commands in the Terminal to checkout project GitHub Repository and start running the project.
-```
-git clone  https://github.com/guming3d/TSP-workshop-Original.git
-cd TSP-workshop
-pip3 install -r requirements.txt
-python3 source/flask_app.py
-```
-**Step 6** : Open a web browser in the WorkSpace, visit http://127.0.0.1:5000, you should see a Web UI.
+**Step 4**  : Based on what you learn, please finish the task in the notebook quantum-computing-algorithm/basics/gate/pennylane/1_Build_Your_Gate.ipynb
 
 ---
 ### Onboarding to Quantum Computing
