@@ -4,6 +4,6 @@ chapter: true
 weight: 50
 ---
 
-# Day5 Assignment
+# Day6-7 Assignment
 
 Unlock this chapter when you complete Day5 assignment...
