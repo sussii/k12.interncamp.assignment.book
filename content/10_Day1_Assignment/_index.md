@@ -1,5 +1,5 @@
 ---
-title: "Day1: Warm UP"
+title: "Day1: Warm Up"
 chapter: true
 weight: 10
 ---
@@ -10,12 +10,12 @@ Day1 is for ramping up. No hurry.
 
 ### Learning Objcetives
 - Get familiar with AWS Products
-- Set up development environment for the rest of days 
-- Understand the application of TSP problem in real-world through research
+- Set up development environment for the rest days 
+- Reseach on the different applications of TSP problem in real-world
 - Onboarding to Quantum Computing
 
 ### Deliver Result
-- 1 PPT Slide: Find at least 5 real scenarios for the application of TSP 
+- 1 PPT Slide: Find at least 5 real scenarios for the applications of TSP 
 - 1 PPT Slide: Find at least 2 technologies for implementing quantum computing
 - Demo: Successfully setup environment and launch the project UI in browser
 
@@ -41,13 +41,6 @@ In this two weeks, you will use three AWS Products.
 
 **Step 2** : Log into Amazon WorkSpaces with the given registration code. (If you don't have the code, ask your mentor.)
 
-
-{{% notice Note %}}
-<p style='text-align: left;'>
-The examples and sample code provided in this workshop are intended to be consumed as instructional content. The crendentials is given for camp learning experience, please do not share it with others.
-</p>
-{{% /notice %}}
-
 **Step 3** : After login, you will see the desktop user interface. Now you are using a Amazon Linux system.
 
 **Step 4** : Open a Terminal window.
@@ -61,7 +54,7 @@ python3 source/flask_app.py
 ```
 **Step 6** : Open a web browser in the WorkSpace, visit http://127.0.0.1:5000, you should see a Web UI.
 
-![Web UI](/k12.interncamp.2021/images/tsp_web_ui.png)
+![Web UI](/k12.interncamp.assignment.book/images/tsp_web_ui.png)
 ---
 ### Research about TSP Applications
 
@@ -69,7 +62,7 @@ python3 source/flask_app.py
 
 The traveling salesman problem (TSP) is a problem that asks, with a list of stops and the distances between each of them, what is the shortest path/possible route that visits each location and returns to the origin?
 
-![Traveling Salesman Problem](/k12.interncamp.2021/images/tsp_problem.png)
+![Traveling Salesman Problem](/k12.interncamp.assignment.book/images/tsp_problem.png)
 
 For decades the TSP has been a challenge for many businesses that rely on route planning.
 
@@ -79,7 +72,7 @@ But once you start planning routes throughout the country, it reaches an almost 
 
 This is what a route would look like if planned to every city in the US with over 500 inhabitants:
 
-![Large Traveling Salesman Problem](/k12.interncamp.2021/images/large_tsp_problem.png)
+![Large Traveling Salesman Problem](/k12.interncamp.assignment.book/images/large_tsp_problem.png)
 
 Just imagine the number of possible routes you could take when a single possible solution is this complex.
 
@@ -151,25 +144,25 @@ Good workload balancing tools will help you reduce overtime and cut driver costs
 
 **Step 3**  : Let us create a notebook instance and fill the name with ` k12-interncamp-tsp-quantum`
 
-![Notebook with name](/k12.interncamp.2021/images/notebook_name.png)
+![Notebook with name](/k12.interncamp.assignment.book/images/notebook_name.png)
 
 **Step 4** Select Instance type. Braket notebook provides multiple instance types of different computational power and prices. The default setting is enough for most of our chapters.
 
 **Step 5** Choose create the role for this notebook since this is the first time you use this service
 
-![Create role](/k12.interncamp.2021/images/create_role.png)
+![Create role](/k12.interncamp.assignment.book/images/create_role.png)
 
 **Step 6** Checkout the given GitHub Repo. A Jupyter notebook version of this book for fitting SageMaker is available at ` https://github.com/AoyuQC/k12-interncamp-tsp-quantum.git `. We can specify this GitHub repository URL to let Braket notebook clone this repository during instance creation. After that, Please click the button to crete the notebook.
 
-![Repo link](/k12.interncamp.2021/images/repo_link.png)
+![Repo link](/k12.interncamp.assignment.book/images/repo_link.png)
 
 **Step 7** It may take a few minutes before the instance is ready. When it is ready, you can click on the “Open Jupyter” link.
 
-![notebook ready](/k12.interncamp.2021/images/notebook_ready.png)
+![notebook ready](/k12.interncamp.assignment.book/images/notebook_ready.png)
 
 **Step 8** Open the notebook and go to the k12-interncamp-tsp-quantum/application/tsp/Introduction_to_TSP.ipynb to learn something about TSP
 
-![introduction to tsp](/k12.interncamp.2021/images/tsp_intro.png)
+![introduction to tsp](/k12.interncamp.assignment.book/images/tsp_intro.png)
 
 **Step 9** After finishing your work, do not forget to stop the instance to avoid extra cost.
 
@@ -178,11 +171,23 @@ After all this practice, let's do some background research. Find at least 5 real
 ---
 ### Onboarding to Quantum Computing
 
-We will try to solve TSP problem with quantum computing(QC) resource in the second week. Today, we hope you get a basic concept of QC. 
+We will try to solve TSP problem with quantum computing(QC) resource in the second week. Today, we hope you get a basic concept of QC. Please watch the videos belows:
 
-* [Quantum Computers Explained in a Way Anyone Can Understand (15 minutes)](https://wx.mail.qq.com/ftn/download?func=3&key=9ec8af62d52fcb1eacbb19623166363966c15e6033663639441800000453550a56561a5207070314550003071e045700001a0250555f06015406025557567139184302111d0559544c6642035d1243544174580f4313425c134417274b165a5808595206130f5819001760034a4677571858590713255757416259065614454d0059534c5e16022d690e7a7e7c1d40579603900a246b954a1a1854c0&code=a77b3f69&k=9ec8af62d52fcb1eacbb19623166363966c15e6033663639441800000453550a56561a5207070314550003071e045700001a0250555f06015406025557567139184302111d0559544c6642035d1243544174580f4313425c134417274b165a5808595206130f5819001760034a4677571858590713255757416259065614454d0059534c5e16022d690e7a7e7c1d40579603900a246b954a1a1854c0&fweb=1&cl=1) 
-* [Is Now the Right Time for QC? (30 minutes)](https://wx.mail.qq.com/ftn/download?func=3&key=c9c7c638877ac415fbb44b386333393259f5a03e613339321317045e54025a05055e4809560a5a1f020b5c0f4c515a535715065b59005c07530c575b07576b324f4c504b4f50565f1b79326b41415c127f56135d0f471900060a55182840195c594f454c095619405f5f0d4c4147505f53181157415641425a57175d41424c53584c10554150565f464d11510f54175f460c71b7999b4b5d9785244f1ec228cdf87fd5dd9bc92c&code=68e8a392&k=c9c7c638877ac415fbb44b386333393259f5a03e613339321317045e54025a05055e4809560a5a1f020b5c0f4c515a535715065b59005c07530c575b07576b324f4c504b4f50565f1b79326b41415c127f56135d0f471900060a55182840195c594f454c095619405f5f0d4c4147505f53181157415641425a57175d41424c53584c10554150565f464d11510f54175f460c71b7999b4b5d9785244f1ec228cdf87fd5dd9bc92c&fweb=1&cl=1)
-* [When will quantum computers become reality? (1.1 hours)](https://wx.mail.qq.com/ftn/download?func=3&key=9b9aea65d7289f1ea9e94c6533616239d560766c31616239414a57035552015a00004f0400035b14500154551c59510e534804070554075c07500653575055391d1157161f020d5449320a005f4115500809421444000c4d110842065e0c124c100010161103075a0b080745430403550d111b4b5c11562d80e5c9f88705d50fd13b6fcf0865698125e07051&code=debe1ab9&k=9b9aea65d7289f1ea9e94c6533616239d560766c31616239414a57035552015a00004f0400035b14500154551c59510e534804070554075c07500653575055391d1157161f020d5449320a005f4115500809421444000c4d110842065e0c124c100010161103075a0b080745430403550d111b4b5c11562d80e5c9f88705d50fd13b6fcf0865698125e07051&fweb=1&cl=1)
+
+* Quantum Computers Explained in a Way Anyone Can Understand (15 minutes) [download link ](https://wx.mail.qq.com/ftn/download?func=3&key=9ec8af62d52fcb1eacbb19623166363966c15e6033663639441800000453550a56561a5207070314550003071e045700001a0250555f06015406025557567139184302111d0559544c6642035d1243544174580f4313425c134417274b165a5808595206130f5819001760034a4677571858590713255757416259065614454d0059534c5e16022d690e7a7e7c1d40579603900a246b954a1a1854c0&code=a77b3f69&k=9ec8af62d52fcb1eacbb19623166363966c15e6033663639441800000453550a56561a5207070314550003071e045700001a0250555f06015406025557567139184302111d0559544c6642035d1243544174580f4313425c134417274b165a5808595206130f5819001760034a4677571858590713255757416259065614454d0059534c5e16022d690e7a7e7c1d40579603900a246b954a1a1854c0&fweb=1&cl=1) 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=zhQItO6_WoI
+" target="_blank"><img src="http://img.youtube.com/vi/zhQItO6_WoI/0.jpg" 
+alt="QC introduction" width="120" height="90" border="3" /></a>
+
+* Is Now the Right Time for QC? (30 minutes) [download link](https://wx.mail.qq.com/ftn/download?func=3&key=c9c7c638877ac415fbb44b386333393259f5a03e613339321317045e54025a05055e4809560a5a1f020b5c0f4c515a535715065b59005c07530c575b07576b324f4c504b4f50565f1b79326b41415c127f56135d0f471900060a55182840195c594f454c095619405f5f0d4c4147505f53181157415641425a57175d41424c53584c10554150565f464d11510f54175f460c71b7999b4b5d9785244f1ec228cdf87fd5dd9bc92c&code=68e8a392&k=c9c7c638877ac415fbb44b386333393259f5a03e613339321317045e54025a05055e4809560a5a1f020b5c0f4c515a535715065b59005c07530c575b07576b324f4c504b4f50565f1b79326b41415c127f56135d0f471900060a55182840195c594f454c095619405f5f0d4c4147505f53181157415641425a57175d41424c53584c10554150565f464d11510f54175f460c71b7999b4b5d9785244f1ec228cdf87fd5dd9bc92c&fweb=1&cl=1)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=_ltGOs7aN3U
+" target="_blank"><img src="http://img.youtube.com/vi/_ltGOs7aN3U/0.jpg" 
+alt="QC introduction" width="120" height="90" border="3" /></a>
+
+* When will quantum computers become reality? (1.1 hours) [download link](https://wx.mail.qq.com/ftn/download?func=3&key=9b9aea65d7289f1ea9e94c6533616239d560766c31616239414a57035552015a00004f0400035b14500154551c59510e534804070554075c07500653575055391d1157161f020d5449320a005f4115500809421444000c4d110842065e0c124c100010161103075a0b080745430403550d111b4b5c11562d80e5c9f88705d50fd13b6fcf0865698125e07051&code=debe1ab9&k=9b9aea65d7289f1ea9e94c6533616239d560766c31616239414a57035552015a00004f0400035b14500154551c59510e534804070554075c07500653575055391d1157161f020d5449320a005f4115500809421444000c4d110842065e0c124c100010161103075a0b080745430403550d111b4b5c11562d80e5c9f88705d50fd13b6fcf0865698125e07051&fweb=1&cl=1)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=3YasK0s9c18
+" target="_blank"><img src="http://img.youtube.com/vi/3YasK0s9c18/0.jpg" 
+alt="QC introduction" width="120" height="90" border="3" /></a>
 
 ---
 ### For your reference (optional)
