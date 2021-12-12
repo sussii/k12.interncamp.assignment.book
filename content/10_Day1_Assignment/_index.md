@@ -20,7 +20,6 @@ Day1 is for ramping up. No hurry.
 - Demo: Successfully setup environment and launch the project UI in browser
 
 ---
-
 #### Get Familiar with AWS Products
 
 First, let's have an overview of AWS. Browse through [AWS Official Webpage](https://aws.amazon.com/). 
@@ -37,8 +36,85 @@ In this two weeks, you will use three AWS Products.
 
 ---
 
-### Setup Development Environment
+### What Is the Traveling Salesman Problem?
 
+The traveling salesman problem (TSP) is a problem that asks, with a list of stops and the distances between each of them, what is the shortest path/possible route that visits each location and returns to the origin?
+
+figure_d1_1.png to be added!!!
+
+For decades the TSP has been a challenge for many businesses that rely on route planning.
+
+With just a starting point and a few stops, planning a route can seem complicated enough.
+
+But once you start planning routes throughout the country, it reaches an almost unthinkable level of complexity.
+
+This is what a route would look like if planned to every city in the US with over 500 inhabitants:
+
+figure_d1_2.png to be added!!!
+
+Just imagine the number of possible routes you could take when a single possible solution is this complex.
+
+#### Why the Traveling Salesman Problem Is Still Hard to Solve in 2022
+
+Mathematician Karl Menger discovered the TSP in 1930, over 90 years ago.
+
+Since then, there have been many suggested solutions and algorithms. But they often struggle with the sheer scale, since the number of possible sales routes increases exponentially with each new stop.
+
+And the truth is, real route planning in 2021 for real businesses is more complex than just a list of stops — making things even more complicated.
+
+In the real world, it’s not as easy as simply finding the shortest route.
+
+#### It’s not just about destinations and distance, there are many other factors in play
+
+It’s not as easy as just taking a list of addresses and creating a route. 
+
+A field sales rep, delivery driver, or technician also has to consider a lot of other factors, like time windows, vehicle capacities, and more.
+
+#### Delivery time windows and planned sales meetings
+
+What if your delivery drivers or salesperson have planned delivery times or sales meetings? Then it’s not enough to just consider the distance, you also have to factor in when they should be at each location.
+
+This adds a whole new level of complexity, and is a challenge that most route planners simply can’t handle.
+
+This particular instance of the problem is also known as the Vehicle Routing Problem with Time Windows (VRPTW). 
+
+#### Required vehicle capacities or technician qualifications
+
+For deliveries, each package that you plan for can have specific requirements in terms of shipping and handling, from refrigeration to unloading dimensions.
+
+You also have to consider the overall loading capacity of each vehicle.
+
+But even for maintenance and field service businesses, you have to consider the unique qualifications of each technician, and whether they match a job.
+
+This is also known as the Capacitated Vehicle Routing Problem (CVRP).
+
+#### Planning efficient routes that include both pickups and deliveries
+
+If your business delivers any sort of reusable packaging or recyclable materials to your customers, chances are that reverse logistics are a huge priority.
+
+To maximize the efficiency of your business, you want to integrate both pickup and delivery into all planned routes.
+
+This adds another dimension and a level of complexity that most route optimization tools can’t handle.
+
+This is also referred to as the Pick-up and Delivery Vehicle Routing Problem (PDVRP)
+
+#### Considering priority of leads, existing clients, and deliveries
+
+To run a business efficiently and keep VIP customers satisfied, you also need to make sure your staff prioritize things the right way.
+
+If your routes don’t consider priority, every customer will be treated the same. So you risk alienating loyal customers if you suddenly switch to an automated solution that can’t handle that.
+
+#### Balancing workloads between multiple drivers
+
+Of course, when planning routes for multiple drivers, you also have to consider their workloads.
+
+Drivers are only human, and have a maximum shift length of 14 hours and mandatory breaks.
+
+What good is an “efficient route” if it’s not possible for a driver to handle it within the allotted time?
+
+Good workload balancing tools will help you reduce overtime and cut driver costs, and make sure all drivers are HOS-compliant at all times.
+
+### Setup Development Environment
 
 **Step 1**  : Download workspace client from https://clients.amazonworkspaces.com/.
 
@@ -68,6 +144,8 @@ python3 source/flask_app.py
 ### Research about TSP Applications
 
 Let's do some background research. Find at least 5 real-world problem related to TSP. You should be able to describe the use cases. 
+
+steps for studying tsp problems to be added!!!
 
 ---
 ### Onboarding to Quantum Computing

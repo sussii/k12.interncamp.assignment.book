@@ -1,12 +1,12 @@
 ---
-title: "Day3 Assignment"
+title: "Day3: Quantum Computing Basics"
 chapter: true
 weight: 30
 ---
 
 # Day3 Assignment
 
-Day3 is for ramping up. No hurry. 
+Day3 is for learning the basics of quantum computing development in the cloud
 
 ### Learning Objcetives
 - Get familiar with AWS Products
@@ -15,9 +15,9 @@ Day3 is for ramping up. No hurry.
 - Onboarding to Quantum Computing
 
 ### Deliver Result
-- 1 PPT Slide: Find at least 5 real scenarios for the application of TSP 
-- 1 PPT Slide: Find at least 2 technologies for implementing quantum computing
-- Demo: Successfully setup environment and launch the project UI in browser
+- 1 PPT Slide: Find at least 5 real scenarios for the application of quantum computing
+- 1 PPT Slide: Describe the progress/limitation of quantum computing
+- Go through the notebooks in quantum-computing-algorithm/basics (8 notebooks) and finish the assignment in quantum-computing-algorithm/basics/gate/pennylane/2_Build_Gate.ipynb
 
 ---
 
