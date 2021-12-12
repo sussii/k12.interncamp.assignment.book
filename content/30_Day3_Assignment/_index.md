@@ -17,7 +17,8 @@ Day3 is for learning the basics of quantum computing development in the cloud
 ### Deliver Result
 - 1 PPT Slide: Find at least 5 real scenarios for the application of quantum computing
 - 1 PPT Slide: Describe the progress/limitation of quantum computing
-- Go through the notebooks in quantum-computing-algorithm/basics (8 notebooks) and finish the assignment in quantum-computing-algorithm/basics/gate/pennylane/2_Build_Gate.ipynb
+- 1 PPT Slide: Describe how to build a model based on quantum gates (anzats,objective function, training) 
+- Go through the notebooks in quantum-computing-algorithm/basics/gate and finish the assignment in quantum-computing-algorithm/basics/gate/pennylane/1_Build_Your_Gate.ipynb
 
 ---
 
