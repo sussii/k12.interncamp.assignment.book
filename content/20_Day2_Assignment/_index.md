@@ -6,4 +6,4 @@ weight: 20
 
 # Day2 Assignment
 
-Unlock this chapter when you complete Day1 assignment.
+Unlock this chapter when you complete Day1 assignment...
