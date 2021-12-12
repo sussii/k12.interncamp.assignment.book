@@ -66,7 +66,7 @@ Please read through the Notebook carefully. Make sure you run Notebook to view t
 
 More quantum computing background.
 
-* The IBM Quantum State of the Union (~30mins)
+* The IBM Quantum State of the Union (~30 minutes)
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=-qBrLqvESNM
 " target="_blank"><img src="http://img.youtube.com/vi/-qBrLqvESNM/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="90" border="3" /></a>

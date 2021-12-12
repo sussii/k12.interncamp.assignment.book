@@ -75,7 +75,7 @@ Let's do some background research. Find at least 5 real-world problem related to
 We will try to solve TSP problem with quantum computing(QC) resource in the second week. Today, we hope you get a basic concept of QC. 
 
 * What is Quantum Computing? 
-* Is Now the Right Time for QC? (30mins)
+* Is Now the Right Time for QC? (30 minutes)
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=_ltGOs7aN3U
 " target="_blank"><img src="http://img.youtube.com/vi/_ltGOs7aN3U/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="90" border="3" /></a>
