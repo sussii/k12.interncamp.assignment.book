@@ -61,6 +61,7 @@ python3 source/flask_app.py
 ```
 **Step 6** : Open a web browser in the WorkSpace, visit http://127.0.0.1:5000, you should see a Web UI.
 
+![Web UI](/static/images/tsp_web_ui.png)
 ---
 ### Research about TSP Applications
 
