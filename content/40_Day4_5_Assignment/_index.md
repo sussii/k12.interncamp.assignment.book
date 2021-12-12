@@ -1,12 +1,12 @@
 ---
-title: "Day5 Assignment"
+title: "Day4-5: From MAXCUT to TSP"
 chapter: true
-weight: 50
+weight: 40
 ---
 
-# Day5 Assignment
+# Day4 Assignment
 
-Day5 is for ramping up. No hurry. 
+Day4 is for ramping up. No hurry. 
 
 ### Learning Objcetives
 - Get familiar with AWS Products

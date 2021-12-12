@@ -1,5 +1,5 @@
 ---
-title: "Day1 Assignment"
+title: "Day1: Warm UP"
 chapter: true
 weight: 10
 ---
@@ -40,7 +40,7 @@ In this two weeks, you will use three AWS Products.
 
 The traveling salesman problem (TSP) is a problem that asks, with a list of stops and the distances between each of them, what is the shortest path/possible route that visits each location and returns to the origin?
 
-figure_d1_1.png to be added!!!
+figure_d1_1.png to be added!!! (AOYU)
 
 For decades the TSP has been a challenge for many businesses that rely on route planning.
 
@@ -50,7 +50,7 @@ But once you start planning routes throughout the country, it reaches an almost 
 
 This is what a route would look like if planned to every city in the US with over 500 inhabitants:
 
-figure_d1_2.png to be added!!!
+figure_d1_2.png to be added!!! (AOYU)
 
 Just imagine the number of possible routes you could take when a single possible solution is this complex.
 
@@ -145,7 +145,7 @@ python3 source/flask_app.py
 
 Let's do some background research. Find at least 5 real-world problem related to TSP. You should be able to describe the use cases. 
 
-steps for studying tsp problems to be added!!!
+steps for studying tsp problems to be added!!! (AOYU)
 
 ---
 ### Onboarding to Quantum Computing

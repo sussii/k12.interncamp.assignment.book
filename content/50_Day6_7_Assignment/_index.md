@@ -1,12 +1,12 @@
 ---
-title: "Day6 Assignment"
+title: "Day6-7: Project for Classical Methods"
 chapter: true
-weight: 60
+weight: 50
 ---
 
-# Day6 Assignment
+# Day5 Assignment
 
-Day6 is for ramping up. No hurry. 
+Day5 is for ramping up. No hurry. 
 
 ### Learning Objcetives
 - Get familiar with AWS Products

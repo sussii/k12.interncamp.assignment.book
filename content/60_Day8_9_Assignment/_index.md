@@ -1,12 +1,12 @@
 ---
-title: "Day4-5: from MAXCU to TSP"
+title: "Day8-9: Project for Quantum Method"
 chapter: true
-weight: 40
+weight: 60
 ---
 
-# Day4 Assignment
+# Day6 Assignment
 
-Day4 is for ramping up. No hurry. 
+Day6 is for ramping up. No hurry. 
 
 ### Learning Objcetives
 - Get familiar with AWS Products

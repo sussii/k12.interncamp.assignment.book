@@ -1,5 +1,5 @@
 ---
-title: "Day2 Assignment"
+title: "Day2: Classical Method"
 chapter: true
 weight: 20
 ---
