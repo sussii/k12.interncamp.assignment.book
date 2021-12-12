@@ -69,7 +69,7 @@ python3 source/flask_app.py
 
 The traveling salesman problem (TSP) is a problem that asks, with a list of stops and the distances between each of them, what is the shortest path/possible route that visits each location and returns to the origin?
 
-![Traveling Salesman Problem](/images/k12.interncamp.2021/images/tsp_problem.png)
+![Traveling Salesman Problem](/k12.interncamp.2021/images/tsp_problem.png)
 
 For decades the TSP has been a challenge for many businesses that rely on route planning.
 
@@ -79,7 +79,7 @@ But once you start planning routes throughout the country, it reaches an almost 
 
 This is what a route would look like if planned to every city in the US with over 500 inhabitants:
 
-![Large Traveling Salesman Problem](/images/k12.interncamp.2021/images/large_tsp_problem.png)
+![Large Traveling Salesman Problem](/k12.interncamp.2021/images/large_tsp_problem.png)
 
 Just imagine the number of possible routes you could take when a single possible solution is this complex.
 
@@ -149,16 +149,31 @@ Good workload balancing tools will help you reduce overtime and cut driver costs
 
 **Step 2**  : Next, click the button to [Create Notebook](https://console.aws.amazon.com/braket/home?region=us-east-1#/create-notebook-instance)
 
-**Step 2** : Next, let us create a notebook instance.
+**Step 3**  : Let us create a notebook instance and fill the name with ` k12-interncamp-tsp-quantum`
 
-**Step 3** Select Instance type. SageMaker provides multiple instance types of different computational power and prices. When creating an instance, we can specify the instance name and choose its type. we choose ml.c5.2xlarge. With 8-core CPU, this instance is powerful enough for most of our chapters.
+![Notebook with name](/k12.interncamp.2021/images/notebook_name.png)
 
-**Step 4** Checkout the given GitHub Repo. A Jupyter notebook version of this book for fitting SageMaker is available at https://github.com/. We can specify this GitHub repository URL to let SageMaker clone this repository during instance creation.
+**Step 4** Select Instance type. Braket notebook provides multiple instance types of different computational power and prices. The default setting is enough for most of our chapters.
 
-**Step 5** It may take a few minutes before the instance is ready. When it is ready, you can click on the “Open Jupyter” link.
+**Step 5** Choose create the role for this notebook since this is the first time you use this service
 
-**Step 6** After finishing your work, do not forget to stop the instance to avoid extra cost.
-Let's do some background research. Find at least 5 real-world problem related to TSP. You should be able to describe the use cases. 
+![Create role](/k12.interncamp.2021/images/creat_role.png)
+
+**Step 6** Checkout the given GitHub Repo. A Jupyter notebook version of this book for fitting SageMaker is available at https://github.com/AoyuQC/k12-interncamp-tsp-quantum.git. We can specify this GitHub repository URL to let Braket notebook clone this repository during instance creation. After that, Please click the button to crete the notebook.
+
+![Repo link](/k12.interncamp.2021/images/repo_link.png)
+
+**Step 7** It may take a few minutes before the instance is ready. When it is ready, you can click on the “Open Jupyter” link.
+
+![notebook ready](/k12.interncamp.2021/images/notebook_ready.png)
+
+**Step 8** Open the notebook and go to the k12-interncamp-tsp-quantum/application/tsp/Introduction_to_TSP.ipynb to learn something about TSP
+
+![introduction to tsp](/k12.interncamp.2021/images/tsp_intro.png)
+
+**Step 9** After finishing your work, do not forget to stop the instance to avoid extra cost.
+
+After all this practice, let's do some background research. Find at least 5 real-world problem related to TSP. You should be able to describe the use cases. 
 
 ---
 ### Onboarding to Quantum Computing
