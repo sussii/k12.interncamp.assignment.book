@@ -68,7 +68,7 @@ python3 source/flask_app.py
 
 The traveling salesman problem (TSP) is a problem that asks, with a list of stops and the distances between each of them, what is the shortest path/possible route that visits each location and returns to the origin?
 
-![Traveling Salesman Problem](/images/k12.interncamp.2021/tsp_problem.png)
+![Traveling Salesman Problem](/images/k12.interncamp.2021/images/tsp_problem.png)
 
 For decades the TSP has been a challenge for many businesses that rely on route planning.
 
@@ -78,7 +78,7 @@ But once you start planning routes throughout the country, it reaches an almost 
 
 This is what a route would look like if planned to every city in the US with over 500 inhabitants:
 
-![Large Traveling Salesman Problem](/images/k12.interncamp.2021/large_tsp_problem.png)
+![Large Traveling Salesman Problem](/images/k12.interncamp.2021/images/large_tsp_problem.png)
 
 Just imagine the number of possible routes you could take when a single possible solution is this complex.
 
