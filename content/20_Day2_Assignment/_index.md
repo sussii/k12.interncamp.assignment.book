@@ -30,11 +30,11 @@ In Day2, we start diving deep into algorithms. If you happen to choose Computer 
 
 ![Instance Name](/k12.interncamp.2021/images/repo_link_classical.png)
 
-**Step 4** Clone an GitHub Repository that we prepared for you. A Jupyter notebook version of this book for fitting SageMaker is available at `https://github.com/xiaotinghe/TSP_Classical_Method`. SageMaker will clone this repository during instance creation.
+**Step 4** Clone the GitHub Repository that we prepared for you. A Jupyter notebook version of this book for fitting SageMaker is available at `https://github.com/xiaotinghe/TSP_Classical_Method`. SageMaker will clone this repository during instance creation.
 
 ![Repo Link](/k12.interncamp.2021/images/notebook_name_classical.png)
 
-**Step 5** It may take a few minutes before the instance is ready. When it gets ready, you should be able to click on the “Open Jupyter” link.
+**Step 5** It may take a few minutes before the instance gets ready. When it is ready, you should be able to click on the “Open Jupyter” link.
 
 ![notebook ready](/k12.interncamp.2021/images/notebook_ready_classical.png)
 
@@ -55,7 +55,7 @@ Please read through the Notebook carefully. Make sure you run the Notebooks and 
 ---
 ### Quantum Computing in the Industry
 
-Watch one video about the quantum technology from IBM
+Watch one video about the quantum technology from IBM.
 
 * [The IBM Quantum State of the Union (30 minutes)](https://wx.mail.qq.com/ftn/download?func=3&key=9d99e661d02acf1eafea48613463323981c72e64366332394749570757020601045e4b5905010714565705561b020109544b50030054005d54525f5750521d391b12531218005d544f320e04162a70744237130058174754423512004206125604461209534367570b09084f5b13062d90f588d8181d656a3f38cab2082a4b2941026fec&code=bffa6c29&k=9d99e661d02acf1eafea48613463323981c72e64366332394749570757020601045e4b5905010714565705561b020109544b50030054005d54525f5750521d391b12531218005d544f320e04162a70744237130058174754423512004206125604461209534367570b09084f5b13062d90f588d8181d656a3f38cab2082a4b2941026fec&fweb=1&cl=1)
 
