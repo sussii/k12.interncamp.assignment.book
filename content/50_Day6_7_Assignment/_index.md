@@ -39,7 +39,7 @@ Note: This will lose all current code changes.
 
 ![cities.json](/k12.interncamp.assignment.book/images/cities.png)
 
-You need to replace data in each red box below.
+You need to replace data in each red box.
 
 ### Add two buttons for classical and quantum methods
 
@@ -72,8 +72,6 @@ Where `[2, 3, 5, 4, 1, 6]` is the result of the second iteration and `[1, 2, 3, 
 
 ---
 ### Videos for better understanding quantum annealing
-
-
 
 We have prepared some videos for you to better understand quantum annealing technology
 
