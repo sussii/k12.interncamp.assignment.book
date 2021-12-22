@@ -22,7 +22,7 @@ Day8-9 is for integrating the quantum computing algorithm
 
 **Step 1** : Log into Amazon Workspaces with the given code (please refer to your day1_assignment)
 
-**Step 2** : Open your terminal and use the following command to check your aws cli verion
+**Step 2** : Open your Terminal and use the following command to check the version of your AWS CLI 
 
 ```
 aws --version
