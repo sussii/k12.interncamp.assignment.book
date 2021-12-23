@@ -63,7 +63,7 @@ More than 5 people will attend and listen to your speech.
 * Show Demo (You can play the prepred video. This should be a highlight of this meeting.)
 * Conclusion. This should be related to your goal!
 
-45’00’’ — 55’00’’
+>45’00’’ — 55’00’’
 #### Learn and take away.
 - About AWS (What Services did you use? You should be able to explain in your word.)
 - About Quantum (Basic Concept, Applications, Quantum Annealer/Gate, etc)
